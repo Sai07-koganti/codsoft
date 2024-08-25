@@ -1,0 +1,127 @@
+.container {
+    position:static;
+    width: 100%;
+    height: 300px;
+    overflow:visible;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    font-size: 24px;
+}
+.image-background{
+    position:absolute;
+    background-image: url("nextflix1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index:-1
+   
+}
+.content{
+    color: rgba(229, 5, 5, 0.777);
+    z-index: 2;
+    position: relative;
+    left:20px;
+    top:0;
+    font-family:'Lucida Sans';
+    background-color: rgba(0, 0, 0, 0.75);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+}
+input[type="email"],input[type="password"]{
+    width:100%;
+    padding:16px;
+    border:none;
+    background: #333;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+}
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline:invert;
+    background: #444;
+}
+button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    cursor: pointer;
+    margin-top: 16px;
+    text-decoration: none;
+}
+p{
+    color:rgb(8, 148, 218);
+}
+button:hover {
+    background-color: #00efe7;
+}
+.remember-me{
+    margin-top: 16px;
+    font-size: 22px;
+    display:flex;
+    color: aqua;
+    align-items: center;
+}
+.remember-me input {
+    margin-right: 8px;
+}
+
+
+.help-links{
+     cursor: pointer;
+    margin-top: 16px;
+    text-align: center;
+}
+.help-links a{
+    text-decoration: none;
+    font-size:19px;
+    color: #b3b3b3;
+}
+.help-links a:hover{
+    text-decoration: underline;
+    color:#999797;
+}
+.signup-now{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 25px;
+}
+.signup-now a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.signup-now a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:rgb(145, 192, 233)
+}
+.google-captcha{
+    text-align: center;
+    font-size:24px;
+
+}
+.google-captcha a{
+    color:azure;
+    text-decoration: none;
+    font-weight: 200;
+}
+.google-captcha a:hover{
+    text-decoration: underline;
+    color:rgb(185, 228, 228);
+    cursor: pointer;
+}
+

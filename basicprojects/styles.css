@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 ;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0aa5bd;
+    color: #bf26c5;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type:circle;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #d20eeb;
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #a4edcd6b;
+}
+
+#about, #projects, #contact {
+    background-color: #2df3d276;
+    margin-bottom: 10px;
+    
+}
+img{
+    height: 200px;
+    width:200px; 
+    border: rgb(234, 34, 208) solid 4px;
+    border-radius: 100px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #d7d1d1a9;
+    padding: 15px;
+    border: 1px solid #0b6ee8;
+    width: 300px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #db14e29f;
+    border-radius: 6px;
+}
+
+form button {
+    padding: 10x 15px;
+    background-color: #e7f711;
+    color: #eb0e0e;
+    border: rgb(197, 0, 227) solid 3px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.myself{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    flex-wrap: wrap;
+}
